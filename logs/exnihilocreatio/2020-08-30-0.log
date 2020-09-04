@@ -1,0 +1,11 @@
+[16:27:55] [ERROR] Error parsing Ingredient String: Invalid Item: exnihilocreatio:block_skystone_crushed:0
+[16:27:55] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[16:27:55] [ERROR] This may result in crashing or other undefined behavior
+[16:27:55] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[16:27:55] [ERROR] This may result in crashing or other undefined behavior
+[16:27:55] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[16:27:55] [ERROR] This may result in crashing or other undefined behavior
+[16:27:55] [ERROR] Error parsing JSON: Invalid Item: {"item":"exnihilocreatio:block_skystone_crushed:0","amount":1,"miningLevel":3,"chance":1.0,"fortuneChance":0.0}
+[16:27:55] [ERROR] Error parsing Ingredient String: Invalid Item: appliedenergistics2:sky_stone_block:0
+[16:27:55] [ERROR] Error parsing Ingredient String: Invalid Item: appliedenergistics2:material:45
+[16:28:04] [INFO] Enabled support for The One Probe

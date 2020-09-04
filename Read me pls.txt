@@ -1,0 +1,18 @@
+Thanks for downloading the Compact Claustrophobia Server Pack!
+
+Please make sure to run forge-1.12.2-14.23.5.2847-universal.jar, NOT minecraft_server.1.12.2.jar.
+The Forge JAR is what actually runs the modpack server, the Minecraft JAR is used inside of the Forge JAR.
+
+Here is a base command to help you get started:
+
+java -jar forge-1.12.2-14.23.5.2847-universal.jar -Xms1024m -Xmx3072m
+
+-Xms1024m tells Java to start the initial heap size with 1024 MB or 1 GB of memory. This doesn't affect performance in the long run, and shouldn't be changed.
+-Xmx3072m tells Java to set the maximum heap size to 3072 MB or 3 GB of memory. This is pretty low for running such an intensive modpack, but might be okay for a few friends.
+For a larger public server, a larger maximum heap size is recommended (at least 8 GB or 8192 MB).
+
+Put this command in a script to make the server easily runnable (.bat file on Windows, .sh file on Mac/Linux).
+Don't want a GUI? Append --nogui to the base command to disable it.
+
+Need more help?
+Join the Discord server! You can ask for help with server setup in #questions. https://discord.gg/p4VKM2F

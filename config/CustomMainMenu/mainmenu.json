@@ -1,0 +1,194 @@
+{
+    "images":
+    {
+
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 0,
+            "posY" : 48,
+            "width" : 180,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "discord":
+        {
+            "text" : "",
+            "posX" : 50,
+            "posY" : -68,
+            "width" : 60,
+            "height" : 20,
+			"imageWidth" : 800,
+			"imageHeight" : 272,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:textures/discord.png",
+            "normalTextColor" : 6579300,
+            "hoverTextColor" : 16777215,
+            "tooltip" : "Discord Server",
+            "action" : 
+            {
+                "type": "openLink",
+                "link" : "https://discord.gg/GRwGEBD"
+            },
+            "shadow" : false
+        },
+
+        "coffee":
+        {
+            "text" : "Buy me an icecream",
+            "posX" : 50,
+            "posY" : -35,
+            "width" : 60,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:textures/transparent.png",
+            "tooltip" : "If you like - you don't need to at all <3",
+            "action" : 
+            {
+                "type": "openLink",
+                "link" : "https://www.buymeacoffee.com/hamster"
+            }
+        },
+
+        "akliz":
+        {
+            "text" : "Get your own server",
+            "normalTextColor" : 1234644,
+            "hoverTextColor" : 456734,
+            "posX" : 0,
+            "posY" : 72,
+            "width" : 180,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/claustrophobia"      
+			}
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 0,
+            "posY" : 96,
+            "width" : 180,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 0,
+            "posY" : 120,
+            "width" : 180,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 0,
+            "posY" : 150,
+            "width" : 80,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 100,
+            "posY" : 150,
+            "width" : 80,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 160,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "top_right",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "other":
+    {        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                    "mainmenu:textures/0001.png",
+                    "mainmenu:textures/0002.png",
+                    "mainmenu:textures/0003.png",
+                    "mainmenu:textures/0004.png",
+                    "mainmenu:textures/0005.png",
+                    "mainmenu:textures/0006.png",
+                    "mainmenu:textures/0007.png",
+                    "mainmenu:textures/0008.png",
+                    "mainmenu:textures/0009.png",
+                    "mainmenu:textures/0010.png",
+                    "mainmenu:textures/0009.png",
+                    "mainmenu:textures/0008.png",
+                    "mainmenu:textures/0007.png",
+                    "mainmenu:textures/0006.png",
+                    "mainmenu:textures/0005.png",
+                    "mainmenu:textures/0004.png",
+                    "mainmenu:textures/0003.png",
+                    "mainmenu:textures/0002.png"],
+                    "displayDuration": 5,
+                    "fadeDurtation": 0
+            }
+        }
+    }
+}
